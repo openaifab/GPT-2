@@ -11,3 +11,5 @@
 3.將input_ids放入GPT-2產生output
 
 4.用GPT2Tokenizer將output轉成生成的文本
+
+![image](https://github.com/openaifab/GPT-2/blob/master/gpt-2.jpg)

@@ -24,7 +24,7 @@ GPT-2 的前身是 GPT，其全名為 Generative Pre-Training。在 GPT-2 的論
 
 ![image](https://leemeng.tw/images/gpt2/decoder-block-attention.jpg)
 
-給定一段文本：<s> a robot must obey the orders given it …
+給定一段文本： a robot must obey the orders given it …
 你可以很輕易地看出 it 指代前面出現過的 robot。而這是因為你懂得去關注（pay attention to）前文並修正當前詞彙 it 的語意。在給定相同句子時，傳統詞嵌入（Word Embeddings）方法是很難做到這件事情的。所幸，透過強大的自注意力機制，我們可以讓模型學會關注上文以決定每個詞彙所代表的語意。
 
 以上例而言，訓練好的 GPT 可以在看到 it 時知道該去關注前面的 a 及 robot，並進而調整 it 在當下代表的意思（即修正該詞彙的 vector representation）。而被融入前文語意的新 representation 就是所謂的 Contextual Word Representation。

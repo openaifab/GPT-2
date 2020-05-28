@@ -35,7 +35,7 @@ GPT-2 的前身是 GPT，其全名為 Generative Pre-Training。在 GPT-2 的論
 在原始的 Transformer 架構裡頭就包含了 Encoder 與 Decoder，分別使用左側與右側的自注意力機制。BERT 跟 GPT 其實只是各選一邊來用 
 
 
-這是使用開源套件transformers的GPT-2產生文本的範例
+這是使用開源套件transformers的GPT-2產生文本的範例(gpt-2.ipynb)
 
 步驟如下:
 

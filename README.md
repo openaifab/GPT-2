@@ -16,7 +16,6 @@ GPT-2 的前身是 GPT，其全名為 Generative Pre-Training。在 GPT-2 的論
 訓練數據：使用從 800 萬個網頁爬來的 40 GB 高品質文本。把金庸 14 部著作全部串起來也不過 50 MB。WebText 的數據量是金庸著作的 800 倍。想像一下光是要看完這 14 部著作一遍所需花費的時間就好。
 模型參數：15 億參數，是已經相當巨大、擁有 3.4 億參數的 BERT-Large 語言代表模型的 4.5 倍之多。BERT-Large 使用了 24 層 Transformer blocks，GPT-2 則使用了 48 層。
 
-
 這可是有史以來最多參數的語言模型。而 GPT-2 獨角獸（unicorn）的形象則是因為當初作者在論文裡生成文本時，給了 GPT-2 一段關於「住在安地斯山脈，且會說英文的一群獨角獸」作為前文脈絡，而 GPT-2 接著生成的結果有模有樣、頭頭是道，讓許多人都驚呆了：
 
 ![image](https://leemeng.tw/images/gpt2/gpt2-unicorns.jpg)
